@@ -1,0 +1,9 @@
+<body>
+    <ul>
+        <% @astronauts.each do |astronaut| %>
+        <li>Name: <%= astronaut.name %>, Age: <%= astronaut.age %>, Job: <%= astronaut.job %></li>
+        <% end %>
+        <li>Average Age: <%= @astronauts.average(:age) %></li>
+    </ul>>
+
+</body>>
